@@ -128,6 +128,6 @@
 
 ## 2026-08-28 23:30
 - 状态：有变更，`git status --porcelain` 输出 1 条（M 自动化记录文件）。
-- 操作：git add -A → commit "auto: 同步 2026-08-28" → push origin main。
+- 操作：git add -A → commit "auto: 同步 2026-08-28" → push origin main；因记录文件本身更新，二次 add/commit/push 同步该记录。
 - 变更：0 新增，1 修改，0 删除（仅 .workbuddy/automations/.../memory.md，6 行插入）；wiki/raw 内容未改动。
-- 结论：推送成功（9900559..7d2406c main -> main）。
+- 结论：推送成功（主内容 9900559..7d2406c；记录文件 7d2406c..9d1abc7 main -> main）。
